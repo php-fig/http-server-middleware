@@ -1,0 +1,4 @@
+extends: default
+reviewers:
+    teams:
+        - http-middleware-contributors
