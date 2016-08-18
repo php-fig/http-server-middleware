@@ -1,4 +1,7 @@
 extends: default
 reviewers:
-    teams:
-        - http-middleware-contributors
+    -
+        name: contributors
+        required: 1
+        teams:
+            - http-middleware-contributors
