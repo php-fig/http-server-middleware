@@ -14,9 +14,9 @@ interface ClientMiddlewareInterface extends MiddlewareInterface
      * to the next frame to get a response.
      *
      * @param RequestInterface $request
-     * @param FrameInterface $next
+     * @param DelegateInterface $next
      *
      * @return ResponseInterface
      */
-    public function process(RequestInterface $request, FrameInterface $next);
+    public function process(RequestInterface $request, DelegateInterface $next);
 }
