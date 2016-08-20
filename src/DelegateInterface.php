@@ -5,7 +5,7 @@ namespace Psr\Http\Middleware;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
-interface FrameInterface
+interface DelegateInterface
 {
     /**
      * Dispatch the next available middleware and return the response.
