@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Psr\\Http\\Middleware\\": "src/"
+            "Interop\\Http\\Middleware\\": "src/"
         }
     },
     "extra": {
