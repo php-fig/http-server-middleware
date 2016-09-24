@@ -8,15 +8,13 @@ use Psr\Http\Message\ResponseInterface;
 interface MiddlewareInterface
 {
     /**
-     * Process a client request and return a response.
-     *
-     * Takes the incoming request and optionally modifies it before delegating
-     * to the next frame to get a response.
+     * Process an incoming client or server request and return a response,
+     * optionally delegating to the next middleware component to create the response.
      *
      * @param RequestInterface $request
-     * @param DelegateInterface $next
+     * @param DelegateInterface $delegate
      *
      * @return ResponseInterface
      */
-    public function process(RequestInterface $request, DelegateInterface $next);
+    public function process(RequestInterface $request, DelegateInterface $delegate);
 }
