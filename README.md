@@ -66,11 +66,11 @@ fn(request, response, next): response
 Based on the middleware implementations already used by frameworks that have
 adopted this signature, the following commonalities are observed:
 
-* The middleware is defined as a [callable][php-callable] using `__invoke`.
+* The middleware is defined as a [callable][php-callable].
 * The middleware is passed 3 arguments during invocation:
-  1. A `RequestInterface` implementation.
+  1. A `ServerRequestInterface` implementation.
   2. A `ResponseInterface` implementation.
-  3. A `callable` that receives the request and response to dispatch next middleware.
+  3. A `callable` that receives the request and response to delegate the next middleware.
 
 [php-callable]: http://php.net/manual/language.types.callable.php
 
