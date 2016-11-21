@@ -259,7 +259,7 @@ Attempting to define client middleware would be premature at this point. Any fut
 proposal that is focused on client side request processing should have the opportunity
 to define a standard that is specific to the nature of asynchronous middleware.
 
-_See "client vs server side middleware" in [relevant links](#relevant-links) for
+_See "client vs server side middleware" in [relevant links](#8-relevant-links) for
 additional information._
 
 [promises]: https://promisesaplus.com/
@@ -277,7 +277,7 @@ Using an interface type hint improves runtime safety and IDE support.
 In addition, it allows compatibility with existing middleware that already defines
 an `__invoke` method.
 
-_See "discussion of FrameInterface" in [relevant links](#relevant-links) for
+_See "discussion of FrameInterface" in [relevant links](#8-relevant-links) for
 additional information._
 
 #### Why does the delegate conflict with middleware?
