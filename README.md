@@ -110,9 +110,6 @@ request and response being passed to the middleware.
 
 The primary downside of this interface is that the while the interface itself is
 a callable, there is currently no way to type hint a closure in a similar way.
-This may be resolved in the future with [functional interfaces][php-functional].
-
-[php-functional]: https://wiki.php.net/rfc/functional-interfaces
 
 ### 4.2 Single Pass (Lambda)
 
