@@ -282,9 +282,7 @@ additional information._
 Both the middleware and delegate interface define a `process` method to prevent
 misuse of middleware as delegates.
 
-If a middleware was used as a delegate the entire middleware stack would end up
-recursive, instead of piped. The implementation of delegate should be defined
-within middleware dispatching systems.
+The implementation of delegate should be defined within middleware dispatching systems.
 
 6. People
 ---------
