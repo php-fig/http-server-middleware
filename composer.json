@@ -1,6 +1,6 @@
 {
     "name": "http-interop/http-middleware",
-    "description": "Common interface for HTTP middleware",
+    "description": "Common interface for HTTP server-side middleware",
     "keywords": [
         "psr",
         "psr-7",
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Interop\\Http\\Middleware\\": "src/"
+            "Interop\\Http\\ServerMiddleware\\": "src/"
         }
     },
     "extra": {
