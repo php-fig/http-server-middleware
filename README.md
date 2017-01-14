@@ -222,7 +222,7 @@ being passed implements a middleware signature, which reduces runtime safety.
 
 ### 5.1 Middleware Design
 
-The `ServerMiddlewareInterface` defines a single method that accepts a server
+The `MiddlewareInterface` defines a single method that accepts a server
 request and a delegate and must return a response. The middleware may:
 
 - Evolve the request before passing it to the delegate to execute the next
@@ -265,7 +265,7 @@ additional information._
 
 The `DelegateInterface` defines a single method that accepts a request and
 returns a response. The delegate interface must be implemented by any middleware
-dispatcher that uses middleware implementing `ServerMiddlewareInterface`.
+dispatcher that uses middleware implementing `MiddlewareInterface`.
 
 #### Why isn't the delegate a `callable`?
 
