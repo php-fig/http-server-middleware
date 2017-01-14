@@ -271,9 +271,6 @@ dispatcher that uses middleware implementing `ServerMiddlewareInterface`.
 
 Using an interface type hint improves runtime safety and IDE support.
 
-In addition, it allows compatibility with existing middleware that already defines
-an `__invoke` method.
-
 _See "discussion of FrameInterface" in [relevant links](#8-relevant-links) for
 additional information._
 
