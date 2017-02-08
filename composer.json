@@ -4,9 +4,8 @@
     "keywords": [
         "psr",
         "psr-7",
-        "psr-17",
+        "psr-15",
         "http",
-        "factory",
         "middleware",
         "request",
         "response"
