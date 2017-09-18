@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Interop\\Http\\ServerMiddleware\\": "src/"
+            "Interop\\Http\\Server\\": "src/"
         }
     },
     "extra": {
