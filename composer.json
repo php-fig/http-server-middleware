@@ -22,6 +22,9 @@
         "psr/http-message": "^1.0",
         "http-interop/http-server-handler": "^1.0"
     },
+    "replace": {
+        "http-interop/http-middleware": ">=0.5"
+    },
     "autoload": {
         "psr-4": {
             "Interop\\Http\\Server\\": "src/"
