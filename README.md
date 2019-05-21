@@ -1,6 +1,12 @@
-HTTP Server Middleware
-======================
+HTTP Server Request Handlers (middleware)
+==============
 
-Provides the `MiddlewareInterface` of [PSR-15][psr-15].
+This repository holds the `MiddlewareInterface` related to [PSR-15 (HTTP Server Request Handlers)][psr-url].
 
-[psr-15]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-15-request-handlers.md
+Note that this is not a Middleware implementation of its own. It is merely the interface that describe a Middleware.
+
+You can find [implementations][implementation-url] and [installation instructions][package-url] for the specification on the packagist.
+
+[psr-url]: https://www.php-fig.org/psr/psr-15/
+[package-url]: https://packagist.org/packages/psr/http-server-middleware
+[implementation-url]: https://packagist.org/providers/psr/http-server-middleware-implementation
