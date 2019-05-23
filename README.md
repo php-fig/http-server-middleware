@@ -1,4 +1,4 @@
-HTTP Server Request Handlers (middleware)
+HTTP Server Middleware
 ==============
 
 This repository holds the `MiddlewareInterface` related to [PSR-15 (HTTP Server Request Handlers)][psr-url].
